@@ -1043,3 +1043,9 @@ h4 {
         text-align: center;
     }
 }
+
+*:focus, *:focus-visible {
+    border: 2px solid red;
+    z-index: 5;
+    transform: scale(1.05);
+}
