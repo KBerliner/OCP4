@@ -1049,3 +1049,8 @@ h4 {
     z-index: 5;
     transform: scale(1.05);
 }
+
+.col-sm-4 > ul > li > a {
+    color: white;
+    
+}
