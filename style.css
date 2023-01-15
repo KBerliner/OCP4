@@ -822,10 +822,11 @@ h4 {
 
 .bg-atlanta-20made-20sign {
     background-image: url("img/atlanta%20made%20sign.jpg");
+    background-size: 100vw;
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+    background-image: url("img/atlanta\ made\ sign\ orange\ \(1\).webp");
 }
 
 @media (max-width: 1024px) {
@@ -1054,3 +1055,8 @@ h4 {
     color: white;
     
 }
+
+.title-img {
+    width: 1018px;
+}
+
