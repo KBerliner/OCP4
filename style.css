@@ -1060,3 +1060,31 @@ h4 {
     width: 1018px;
 }
 
+.skip {
+    position: absolute;
+    width: 10vw;
+    height: 5vw;
+    border-radius: 8px;
+    background-color: #F3976C;
+    z-index: 4;
+    left: 45vw;
+    top: -200px;
+    cursor: pointer;
+    transition: all ease-in-out 200ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1em 1em 0 rgba(0, 0, 0, 0.203);
+    text-decoration: none;
+}
+
+.skip:focus, .skip:focus-visible {
+    top: 50px;
+    border: 2px solid red;
+}
+
+.skip__text {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
